@@ -11,7 +11,7 @@
 #include<limits.h>
 #include<signal.h>
 #include <dirent.h>
-
+#define CLEAR_SCREEN "\e[1;1H\e[2J"
 
 
 extern char **environ;

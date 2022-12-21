@@ -11,11 +11,7 @@
 int _execute(const char *pathname, char *const argv[], char *const envp[])
 {
 	pid_t pid;
-	char bin[40];
 
-	/* strcpy(bin,"/bin/"); */
-
-       /* strcat(bin, pathname); */
 
 	if (strcmp(pathname, "clear") == 0)
 	{
@@ -49,4 +45,5 @@ int _execute(const char *pathname, char *const argv[], char *const envp[])
 			wait(NULL);
 		}
 	}
+	return (0);
 }

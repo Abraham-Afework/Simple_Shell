@@ -8,7 +8,6 @@
 
 int main(void)
 {
-	char *command, *parameters;
 
 	welcome();
 	while (1)

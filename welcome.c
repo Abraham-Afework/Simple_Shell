@@ -13,7 +13,7 @@ void welcome(void)
 
 	if (firstime)
 	{
-		printf("\e[1;1H\e[2J");
+		system("clear");
 		printf("\n\n\t\t\t\tWELCOME TO ALX SHELL\n\n\n");
 		printf("*\t*\t*\t*\t*\t*\t*\t*\t*\t*\t*\t*\t*\t*\t*\n");
 		firstime = 0;

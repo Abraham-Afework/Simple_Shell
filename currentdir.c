@@ -6,8 +6,5 @@
 
 void currentdir(void)
 {
-	char buff[PATH_MAX];
-
-	/*	printf("%s",getcwd(buff,PATH_MAX));*/
 	printf("$");
 }

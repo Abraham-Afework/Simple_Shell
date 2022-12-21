@@ -6,8 +6,6 @@
  */
 int changedir(const char *pathname)
 {
-	char *ptr, buff[PATH_MAX];
-
 	chdir(pathname);
 	return (0);
 }
