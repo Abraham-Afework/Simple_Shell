@@ -18,7 +18,7 @@ extern char **environ;
 int _execute(const char *pathname, char *const argv[], char *const envp[]);
 int get_line(void);
 int changedir(const char *pathname);
-void *currentdir(void);
+void currentdir(void);
 void welcome(void);
 
 

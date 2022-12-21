@@ -20,8 +20,8 @@ int get_line(void)
 	ptr = malloc(sizeof(linpt));
 	ptr = strtok(linpt, delimter);
 
-	strcpy(cmd, "/bin/");
-	strcat(cmd, ptr);
+//	strcat(ptr,"/bin/");
+//	strcat(cmd, ptr);
 	newargv[0] = ptr;
 
 	while (ptr != NULL)
